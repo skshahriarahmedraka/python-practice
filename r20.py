@@ -1,0 +1,11 @@
+c=["cat","apple","fruit","raka","cat","What","MOji","Al"]
+c.remove("cat")
+print(c)
+c.sort()
+print(c)
+c.sort(reverse=True)
+print(c)
+c.sort(key=str.lower)
+print(c)
+c.sort(key=str.upper)
+print(c)
