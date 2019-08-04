@@ -1,0 +1,10 @@
+p=open("test_doc.txt","r")
+#print(p.read())
+#print(p.read(5))
+print(p.readline())
+print(p.readline())
+p.close()
+f=open("test_doc.txt","r")
+for x in f:
+    print(x)
+f.close()
