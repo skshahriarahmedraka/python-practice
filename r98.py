@@ -1,0 +1,10 @@
+print(chr(97))
+x,y=divmod(10,3)
+print(x)
+print(y)
+print(ord("A"))
+print(round(12.425))
+print(round(14.1234,2))
+a="raka"
+b="what"
+print(a,b,sep=";")

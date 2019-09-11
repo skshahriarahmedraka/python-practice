@@ -1,0 +1,12 @@
+myfile=open("rakatext.txt","w")
+print(myfile.name)
+print(myfile.closed)
+print(myfile.mode)
+
+myfile.write("sk shahriar ahmed raka")
+myfile.write(" what is that you want most..")
+myfile.close()
+my1=open("rakatext.txt","a")
+my1.write(" whats next")
+my1.close()
+my2=open("rakatext.txt","w")

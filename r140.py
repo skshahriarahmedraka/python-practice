@@ -1,0 +1,1 @@
+print(eval(input("give a numner string : ")))

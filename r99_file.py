@@ -1,0 +1,20 @@
+fp=open("raka1.txt","w+")
+for i in range(5):
+    fp.write(f"this is line {i} \n")
+fp.close()
+fp=open("raka1.txt","a+")
+for i in range(10):
+    fp.write(f"what is next {i}\n")
+fp.close()
+fp=open("raka1.txt","r")
+if fp.mode =="r":
+    c=fp.read()
+print(c)
+fp.close()
+fp=open("raka1.txt","r")
+q=fp.readline()
+print("readline : ")
+print(q)
+w=fp.readlines()
+print("readlines : ")
+print(w)
